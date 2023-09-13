@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+      <h1>Formulario De Cliente</h1>
+<form action="ServletPrincipal" method="post">
+    Nombres: <input  type="text" name="nombres" size=30 ><br>
+    Apellidos: <input type="text" name="apellidos" size=30><br>
+    Habitacion: <input type="text,number" name="habitacion" size=29><br>
+    Departamento: <input type="text" name="departamento" size=26><br>
+    Direccion: <input type="text,number" name="direccion" size=30><br>
+    Telefono: <input type="number,text" name="telefono" size=31><br>
+    Email: <input type="email" name="email" size=33 ><br>
+    Fecha De Ingreso <input type="date" name="FechaDeIngreso" size=30> <br>
+    Fecha De Salida: <input type="date" name="FechaDeSalida" size=30> 
+    <p>
+        Opinión de este sitio web<br>
+        <input type="radio" checked name="opinion" value="buena">buena<br>
+        <input type="radio" name="opinion" value="regular">regular<br>
+        <input type="radio" name="opinion" value="mala">mala
+    <p>
+        Comentarios <br>
+        <textarea name="comentarios" rows=6 cols=40></textarea>
+    <p>
+        <input type="submit" name="botonenviar" value="ENVIAR">
+        <input type="reset" name="botonlimpiar" value="LIMPIAR">
+
+    </form>
+    </body>
+</html>
+
